@@ -3,39 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>www.jjforneron.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>www.jjforneron.com/home/</loc>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>www.jjforneron.com/authors/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>www.jjforneron.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>www.jjforneron.com/</loc>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>www.jjforneron.com/post/</loc>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>www.jjforneron.com/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>www.jjforneron.com/publication/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>www.jjforneron.com/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>www.jjforneron.com/tags/</loc>
   </url>
   
 </urlset>
