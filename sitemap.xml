@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>www.jjforneron.com/authors/admin/</loc>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/home/</loc>
+    <loc>/home/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/authors/</loc>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/publication_types/</loc>
+    <loc>/publication_types/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/publication/</loc>
+    <loc>/publication/</loc>
   </url>
   
   <url>
-    <loc>www.jjforneron.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
