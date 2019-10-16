@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | JJ Forneron</title>
-    <link>jjforneron.com/categories/</link>
-      <atom:link href="jjforneron.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.jjforneron.com/categories/</link>
+      <atom:link href="www.jjforneron.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>jjforneron.com/img/icon-192.png</url>
+      <url>www.jjforneron.com/img/icon-192.png</url>
       <title>Categories</title>
-      <link>jjforneron.com/categories/</link>
+      <link>www.jjforneron.com/categories/</link>
     </image>
     
   </channel>
