@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JJ Forneron</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>jjforneron.com/</link>
+      <atom:link href="jjforneron.com/index.xml" rel="self" type="application/rss+xml" />
     <description>JJ Forneron</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>img/icon-192.png</url>
+      <url>jjforneron.com/img/icon-192.png</url>
       <title>JJ Forneron</title>
-      <link>/</link>
+      <link>jjforneron.com/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/home/</link>
+      <link>jjforneron.com/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home/</guid>
+      <guid>jjforneron.com/home/</guid>
       <description></description>
     </item>
     

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JJ Forneron</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>jjforneron.com/authors/admin/</link>
+      <atom:link href="jjforneron.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>JJ Forneron</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>img/icon-192.png</url>
+      <url>jjforneron.com/img/icon-192.png</url>
       <title>JJ Forneron</title>
-      <link>/authors/admin/</link>
+      <link>jjforneron.com/authors/admin/</link>
     </image>
     
   </channel>
