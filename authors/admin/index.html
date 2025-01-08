@@ -207,49 +207,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107065944-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-107065944-1', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
   
 
@@ -258,8 +215,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu710596591680314772.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu15354736778185717779.png">
 
   <link rel="canonical" href="/authors/admin/">
 
@@ -279,8 +236,8 @@
   <meta property="og:site_name" content="JJ Forneron">
   <meta property="og:url" content="/authors/admin/">
   <meta property="og:title" content=" | JJ Forneron">
-  <meta property="og:description" content="Assistant Professor of Economics"><meta property="og:image" content="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_512x512_fill_lanczos_center_3.png">
-  <meta property="twitter:image" content="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor of Economics"><meta property="og:image" content="/images/icon_hu3461398058787707346.png">
+  <meta property="twitter:image" content="/images/icon_hu3461398058787707346.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -561,7 +518,7 @@
 
       
       
-      <img class="avatar avatar-circle" src="/authors/admin/avatar_huf6193bec7628baf242f2ce6773df1227_81334_270x270_fill_q90_lanczos_center.jpg" alt="">
+      <img class="avatar avatar-circle" src="/authors/authors/avatar_hu12104693984731875067.jpg" alt="">
       
 
       <div class="portrait-title">
@@ -781,7 +738,7 @@
     
     
     
-    <script src="/js/academic.min.fe8457ad3612dcf4ae47218be1c4e71a.js"></script>
+    <script src="/js/academic.min.a0f52cd61d0242fd8ed5d785d9bff037.js"></script>
 
     
 

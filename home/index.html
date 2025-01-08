@@ -207,57 +207,14 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107065944-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-107065944-1', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
   
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu710596591680314772.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu15354736778185717779.png">
 
   <link rel="canonical" href="/home/">
 
@@ -277,8 +234,8 @@
   <meta property="og:site_name" content="JJ Forneron">
   <meta property="og:url" content="/home/">
   <meta property="og:title" content=" | JJ Forneron">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_512x512_fill_lanczos_center_3.png">
-  <meta property="twitter:image" content="/images/icon_hu18f338b5a7b4e63c228aecfa367f30a6_8175_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu3461398058787707346.png">
+  <meta property="twitter:image" content="/images/icon_hu3461398058787707346.png"><meta property="og:locale" content="en-us">
   
     
     
@@ -600,7 +557,7 @@
 
       
       
-      <img class="avatar avatar-circle" src="/authors/admin/avatar_huf6193bec7628baf242f2ce6773df1227_81334_270x270_fill_q90_lanczos_center.jpg" alt="">
+      <img class="avatar avatar-circle" src="/authors/admin/avatar_hu12104693984731875067.jpg" alt="">
       
 
       <div class="portrait-title">
@@ -834,11 +791,15 @@
 
     <h2 id="working-papers">Working Papers</h2>
 <ul>
+<li><strong>Fitting Dynamically Misspecified Models: An Optimal Transportation Approach</strong> 
+<a href="https://arxiv.org/pdf/2412.20204" target="_blank" rel="noopener">(pdf)</a> (with 
+<a href="https://sites.bu.edu/qu/" target="_blank" rel="noopener">Zhongjun Qu</a>)</li>
 <li><strong>Occasionally Misspecified</strong> 
 <a href="https://arxiv.org/pdf/2312.05342.pdf" target="_blank" rel="noopener">(pdf)</a></li>
 <li><strong>Convexity Not Required: Estimation of Smooth Moment Condition Models</strong> 
 <a href="https://arxiv.org/pdf/2304.14386.pdf" target="_blank" rel="noopener">(pdf |</a>
-<a href="/Rank/Rank.zip">code)</a> (with Liang Zhong)</li>
+<a href="/Rank/Rank.zip">code)</a> (with 
+<a href="https://samzl1.github.io/" target="_blank" rel="noopener">Liang Zhong</a>)</li>
 <li><strong>Noisy, Non-Smooth, Non-Convex Estimation of Moment Condition Models</strong> 
 <a href="https://arxiv.org/pdf/2301.07196.pdf" target="_blank" rel="noopener">(pdf |</a>
 <a href="/Code/sGN.zip">code)</a></li>
@@ -848,7 +809,7 @@
 <h2 id="papers">Papers</h2>
 <ul>
 <li><strong>Estimation and Inference by Stochastic Optimization</strong> 
-<a href="https://arxiv.org/pdf/2205.03254.pdf" target="_blank" rel="noopener">(pdf)</a> Accepted at the Journal of Econometrics</li>
+<a href="https://arxiv.org/pdf/2205.03254.pdf" target="_blank" rel="noopener">(pdf)</a> in the Journal of Econometrics, vol. 238, no 2.</li>
 <li><strong>Detecting Identification Failure in Moment Condition Models</strong>  
 <a href="https://arxiv.org/pdf/1907.13093.pdf" target="_blank" rel="noopener">(pdf)</a> (2024) in the <em>Journal of Econometrics</em>, vol. 238, no 1.</li>
 <li><strong>A Sieve-SMM Estimator for Dynamic Models</strong> 
@@ -930,7 +891,7 @@
 <li>EC304: <strong>Empirical Economic Analysis 2 (Undergraduate)</strong>, Fall 2021</li>
 <li>EC508: <strong>Econometrics (MA)</strong>, Spring 2019-2021, Spring 2023, Spring 2024</li>
 <li>EC709: <strong>Advanced Econometrics 2 (PhD, co-instructor)</strong>, Fall 2021, Fall 2023</li>
-<li>EC711: <strong>Advanced Topics in Econometrics (PhD, co-instructor)</strong>, Fall 2018, Spring 2020-2021, Spring 2023</li>
+<li>EC711: <strong>Advanced Topics in Econometrics (PhD, co-instructor)</strong>, Fall 2018, Spring 2020-2021, Spring 2023, Spring 2025</li>
 </ul>
 <h2 id="office-hours">Office Hours</h2>
 <ul>
@@ -1098,7 +1059,7 @@
     
     
     
-    <script src="/js/academic.min.fe8457ad3612dcf4ae47218be1c4e71a.js"></script>
+    <script src="/js/academic.min.a0f52cd61d0242fd8ed5d785d9bff037.js"></script>
 
     
 
